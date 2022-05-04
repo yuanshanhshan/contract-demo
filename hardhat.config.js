@@ -194,7 +194,7 @@ module.exports = {
     },
   },
   gasReporter: {
-    enabled: false,
+    enabled: true,
     currency: "USD",
   },
   etherscan: {
