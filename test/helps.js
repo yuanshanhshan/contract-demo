@@ -28,7 +28,6 @@ async function increaseTime(ts) {
 async function setBlockTime(ts) {
   await provider.send("evm_setNextBlockTimestamp", [ts]);
 }
-
 module.exports = {
   getBlockNumber,
   mineBlocks,

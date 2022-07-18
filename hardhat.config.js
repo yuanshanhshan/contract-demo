@@ -2,7 +2,7 @@
 
 require("@nomiclabs/hardhat-etherscan");
 require("@nomiclabs/hardhat-waffle");
-require("hardhat-gas-reporter");
+// require("hardhat-gas-reporter");
 require("solidity-coverage");
 require("@openzeppelin/hardhat-upgrades");
 require("dotenv").config();
@@ -193,10 +193,10 @@ module.exports = {
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
   },
-  gasReporter: {
-    enabled: true,
-    currency: "USD",
-  },
+  // gasReporter: {
+  //   enabled: true,
+  //   currency: "USD",
+  // },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
   },
