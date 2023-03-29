@@ -12,6 +12,7 @@
         "@openzeppelin/contracts": "^4.7.3",
         "@openzeppelin/contracts-upgradeable": "^4.7.0",
         "@openzeppelin/hardhat-upgrades": "^1.17.0",
+        "alchemy-sdk": "^2.6.2",
         "chai": "^4.3.6",
         "dotenv": "^16.0.0",
         "ethereum-waffle": "*",
