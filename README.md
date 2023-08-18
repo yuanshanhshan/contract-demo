@@ -42,6 +42,7 @@
 > EVM中storage中的数据存储方式是通过Slot实现的
 
 private声明的变量可以通过数据在slot中存储的位置进行查询
+
 ```js
 // password is at storage slot 1
 const password = await eoa.provider.getStorageAt(challenge.address, 1)
