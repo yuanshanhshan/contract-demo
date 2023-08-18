@@ -1,18 +1,22 @@
 {
     "dependencies": {
-        "hardhat": "^2.9.2"
+        "hardhat": "^2.12.7"
     },
     "scripts": {
         "build-contracts": "sol-merger \"./contracts/*.sol\" ./build"
     },
     "devDependencies": {
+        "@nomiclabs/hardhat-ethers": "^2.0.0",
         "@nomiclabs/hardhat-etherscan": "^3.0.3",
         "@nomiclabs/hardhat-waffle": "^2.0.3",
         "@openzeppelin/contracts": "^4.7.3",
         "@openzeppelin/contracts-upgradeable": "^4.7.0",
         "@openzeppelin/hardhat-upgrades": "^1.17.0",
+        "alchemy-sdk": "^2.6.2",
         "chai": "^4.3.6",
         "dotenv": "^16.0.0",
+        "ethereum-waffle": "*",
+        "ethers": "^6.0.3",
         "hardhat-gas-reporter": "^1.0.8",
         "prettier-plugin-solidity": "^1.0.0-dev.23",
         "sol-merger": "^4.1.1",
